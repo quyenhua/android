@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.quyenhua.bttygiadongtien.TinhTyGia">
+
+    <TextView
+        android:id="@+id/tvDateTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="17dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="13dp"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/tvLoaitiente1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tvDateTime"
+        android:layout_alignStart="@+id/tvDateTime"
+        android:layout_below="@+id/tvDateTime"
+        android:layout_marginLeft="13dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="18dp"
+        android:text="Chọn loại tiền 1"
+        android:textSize="18sp" />
+
+    <Spinner
+        android:id="@+id/spinnerLoaitiente1"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/spinnerLoaitiente2"
+        android:layout_alignLeft="@+id/spinnerLoaitiente2"
+        android:layout_alignStart="@+id/spinnerLoaitiente2" />
+
+    <TextView
+        android:id="@+id/tvLoaitiente2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tvDateTime"
+        android:layout_alignStart="@+id/tvDateTime"
+        android:layout_below="@+id/tvLoaitiente1"
+        android:layout_marginLeft="13dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="18dp"
+        android:text="Chọn loại tiền 2"
+        android:textSize="18sp" />
+
+    <Spinner
+        android:id="@+id/spinnerLoaitiente2"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvLoaitiente1"
+        android:layout_marginTop="18dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="32dp"
+        android:layout_marginEnd="32dp" />
+
+    <TextView
+        android:id="@+id/tvPhuongthuc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinnerLoaitiente2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="38dp" />
+
+    <TextView
+        android:id="@+id/tvInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tvLoaitiente2"
+        android:layout_alignStart="@+id/tvLoaitiente2"
+        android:layout_below="@+id/tvPhuongthuc"
+        android:layout_marginLeft="11dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="44dp"
+        android:text="Nhập số tiền"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/edInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvPhuongthuc"
+        android:layout_marginTop="33dp"
+        android:layout_toEndOf="@+id/tvLoaitiente2"
+        android:layout_toRightOf="@+id/tvLoaitiente2"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/tvKetqua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnHienthi"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="40dp"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnReturn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="44dp"
+        android:text="Về Menu" />
+
+    <Button
+        android:id="@+id/btnHienthi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnReturn"
+        android:layout_alignStart="@+id/btnReturn"
+        android:layout_below="@+id/edInput"
+        android:layout_marginTop="35dp"
+        android:text="Tính" />
+</RelativeLayout>

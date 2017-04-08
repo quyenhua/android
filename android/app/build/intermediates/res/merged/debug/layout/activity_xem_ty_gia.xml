@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.quyenhua.bttygiadongtien.TinhTyGia"
-    android:orientation="vertical">
+    android:background="@drawable/cute"
+    android:orientation="vertical"
+    tools:context="com.example.quyenhua.bttygiadongtien.TinhTyGia">
 
     <TextView
         android:id="@+id/tvDatetime"
@@ -14,82 +15,124 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginLeft="15dp"
-        android:layout_marginStart="15dp"
-        android:layout_marginTop="13dp"
-        android:text="" />
-
-        <TextView
-            android:id="@+id/tvLoaitiente"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Chọn loại tiền tệ"
-            android:textColor="?attr/actionModeSplitBackground"
-            android:textSize="18sp"
-            android:layout_marginTop="40dp"
-            android:layout_alignParentTop="true"
-            android:layout_centerHorizontal="true" />
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="16dp"
+        android:text="Ngày cập nhât"
+        android:textColor="@color/colorPrimaryDark"
+        app:layout_constraintHorizontal_bias="0.071"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Spinner
         android:id="@+id/spinnerLoaitiente"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
-        android:layout_weight="0.24"
         android:layout_below="@+id/tvLoaitiente"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="23dp"
+        android:layout_weight="0.24"
+        app:layout_constraintHorizontal_bias="0.562"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvDatetime" />
 
-    <RelativeLayout
+    <android.support.constraint.ConstraintLayout
         android:id="@+id/layoutHienthi"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="58dp"
-        android:layout_below="@+id/spinnerLoaitiente"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true">
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnReturn"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinnerLoaitiente"
+        app:layout_constraintVertical_bias="1.0">
 
         <TextView
             android:id="@+id/tvHienthi"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="38dp"
             android:layout_weight="1"
-            android:textAlignment="center"
             android:text="Kết quả"
-            android:textSize="24sp" />
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="30dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
-    <TextView
-        android:id="@+id/tvId"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="70dp"
-        android:layout_marginStart="70dp"
-        android:layout_marginTop="42dp"
-        android:text="Mã tiền tệ: "
-        android:textSize="18sp"
-        android:layout_below="@+id/tvHienthi"/>
+        <TextView
+            android:id="@+id/tvId"
+            android:layout_width="280dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/tvHienthi"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/textview"
+            android:elevation="0dp"
+            android:text="Mã tiền tệ"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_light"
+            android:textSize="30dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvHienthi"
+            app:layout_constraintVertical_bias="0.217" />
 
         <TextView
             android:id="@+id/tvBuyOnl"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="280dp"
+            android:layout_height="50dp"
             android:layout_below="@+id/tvId"
-            android:layout_marginEnd="10dp"
-            android:layout_marginLeft="70dp"
-            android:layout_marginRight="10dp"
-            android:layout_marginStart="70dp"
-            android:layout_marginTop="40dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/textview"
             android:text="Số tiền"
-            android:textSize="18sp" />
+            android:textAlignment="center"
+            android:textColor="@android:color/background_light"
+            android:textSize="30dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.501"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvId"
+            app:layout_constraintVertical_bias="0.365" />
 
-    </RelativeLayout>
+    </android.support.constraint.ConstraintLayout>
 
     <Button
         android:id="@+id/btnReturn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="32dp"
-        android:text="Về Menu"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-11dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/button"
+        android:text="Về Menu"
+        android:textColor="@android:color/background_light"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
 
-</RelativeLayout>
+</android.support.constraint.ConstraintLayout>

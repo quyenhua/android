@@ -1,0 +1,25 @@
+#Tue Mar 28 10:08:28 ICT 2017
+renamed.7=classes2.dex
+renamed.6=classes6.dex
+renamed.5=classes3.dex
+renamed.4=classes7.dex
+renamed.3=classes8.dex
+renamed.2=classes5.dex
+renamed.1=classes4.dex
+renamed.0=classes.dex
+base.7=E\:\\quyen\\HK8\\ptudtrentbdidong\\android\\android\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_567ef23ff41232b2f3018a39ebc47f40da76baad
+base.6=E\:\\quyen\\HK8\\ptudtrentbdidong\\android\\android\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\constraint-layout-solver-1.0.2_7420e1740b241aa5f2bb1c0103b79086dd23a8e4
+base.5=E\:\\quyen\\HK8\\ptudtrentbdidong\\android\\android\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_58f5fcaddaa49cfa16ff145eb1d60641f3f3f5e5
+base.4=E\:\\quyen\\HK8\\ptudtrentbdidong\\android\\android\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\internal_impl-24.0.0_e58bd51cbcab2ae283e7c483e951e54e44fe4705
+base.3=E\:\\quyen\\HK8\\ptudtrentbdidong\\android\\android\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\support-annotations-24.0.0_e29d62b1f9d9f487b0a9e857db454c1b4f636d16
+base.2=E\:\\quyen\\HK8\\ptudtrentbdidong\\android\\android\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_e44f8fdb7258d1a008e88a74820df6359eefa52d
+base.1=E\:\\quyen\\HK8\\ptudtrentbdidong\\android\\android\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_cd8da8cb56031e138cf962ce1e9c3ed40ac2ee94
+base.0=E\:\\quyen\\HK8\\ptudtrentbdidong\\android\\android\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_25ce61b3738d461ef8ec516cf819ee8706a1df8a
+file.7=E\:\\quyen\\HK8\\ptudtrentbdidong\\android\\android\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_567ef23ff41232b2f3018a39ebc47f40da76baad\\classes.dex
+file.6=E\:\\quyen\\HK8\\ptudtrentbdidong\\android\\android\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\constraint-layout-solver-1.0.2_7420e1740b241aa5f2bb1c0103b79086dd23a8e4\\classes.dex
+file.5=E\:\\quyen\\HK8\\ptudtrentbdidong\\android\\android\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_58f5fcaddaa49cfa16ff145eb1d60641f3f3f5e5\\classes.dex
+file.4=E\:\\quyen\\HK8\\ptudtrentbdidong\\android\\android\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\internal_impl-24.0.0_e58bd51cbcab2ae283e7c483e951e54e44fe4705\\classes.dex
+file.3=E\:\\quyen\\HK8\\ptudtrentbdidong\\android\\android\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\support-annotations-24.0.0_e29d62b1f9d9f487b0a9e857db454c1b4f636d16\\classes.dex
+file.2=E\:\\quyen\\HK8\\ptudtrentbdidong\\android\\android\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_e44f8fdb7258d1a008e88a74820df6359eefa52d\\classes.dex
+file.1=E\:\\quyen\\HK8\\ptudtrentbdidong\\android\\android\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_cd8da8cb56031e138cf962ce1e9c3ed40ac2ee94\\classes.dex
+file.0=E\:\\quyen\\HK8\\ptudtrentbdidong\\android\\android\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_25ce61b3738d461ef8ec516cf819ee8706a1df8a\\classes.dex

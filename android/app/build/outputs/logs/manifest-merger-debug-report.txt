@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from E:\quyen\HK8\ptudtrentbdidong\android\android\app\src\main\AndroidManifest.xml:2:1-23:12
+ADDED from E:\quyen\HK8\ptudtrentbdidong\android\android\app\src\main\AndroidManifest.xml:2:1-26:12
 	package
 		ADDED from E:\quyen\HK8\ptudtrentbdidong\android\android\app\src\main\AndroidManifest.xml:3:5-51
 		INJECTED from E:\quyen\HK8\ptudtrentbdidong\android\android\app\src\main\AndroidManifest.xml
@@ -17,54 +17,62 @@ uses-permission#android.permission.INTERNET
 ADDED from E:\quyen\HK8\ptudtrentbdidong\android\android\app\src\main\AndroidManifest.xml:5:5-66
 	android:name
 		ADDED from E:\quyen\HK8\ptudtrentbdidong\android\android\app\src\main\AndroidManifest.xml:5:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from E:\quyen\HK8\ptudtrentbdidong\android\android\app\src\main\AndroidManifest.xml:6:5-80
+	android:name
+		ADDED from E:\quyen\HK8\ptudtrentbdidong\android\android\app\src\main\AndroidManifest.xml:6:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from E:\quyen\HK8\ptudtrentbdidong\android\android\app\src\main\AndroidManifest.xml:7:5-79
+	android:name
+		ADDED from E:\quyen\HK8\ptudtrentbdidong\android\android\app\src\main\AndroidManifest.xml:7:22-77
 application
-ADDED from E:\quyen\HK8\ptudtrentbdidong\android\android\app\src\main\AndroidManifest.xml:6:5-21:19
-MERGED from [com.android.support:appcompat-v7:24.0.0] C:\Users\Quyen Hua\.android\build-cache\fcab8268500876d9219f27d7206e33f721f6f22b\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:animated-vector-drawable:24.0.0] C:\Users\Quyen Hua\.android\build-cache\c697e456b5431879fb17ff5e1eb81018c3b374fc\output\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-vector-drawable:24.0.0] C:\Users\Quyen Hua\.android\build-cache\fcacb87edfc7f60be72fb3f2b3ec9402e7f76d40\output\AndroidManifest.xml:23:5-20
-MERGED from [com.android.support:support-v4:24.0.0] C:\Users\Quyen Hua\.android\build-cache\76b1cb4a85ae2ee304cce000d691b53a7377adce\output\AndroidManifest.xml:25:5-20
+ADDED from E:\quyen\HK8\ptudtrentbdidong\android\android\app\src\main\AndroidManifest.xml:9:5-24:19
+MERGED from [com.android.support:appcompat-v7:24.0.0] C:\Users\Quyen Hua\.android\build-cache\d5f8947f2146a1a5d833365a0fd1c2cc7aa9fbd3\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:24.0.0] C:\Users\Quyen Hua\.android\build-cache\bac9e81dd666d6bba82f9d18e5a5c7788ee961c7\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:24.0.0] C:\Users\Quyen Hua\.android\build-cache\ae13c9376c2e62e0d159dd536471ca1b1dd5cfed\output\AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-v4:24.0.0] C:\Users\Quyen Hua\.android\build-cache\0e9c765bd6bd857c69807c36ab2726a2b61168d2\output\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Quyen Hua\.android\build-cache\09510b0b4c5ec13cc9ce3085d9870ff9456b333d\output\AndroidManifest.xml:9:5-20
 	android:label
-		ADDED from E:\quyen\HK8\ptudtrentbdidong\android\android\app\src\main\AndroidManifest.xml:9:9-41
+		ADDED from E:\quyen\HK8\ptudtrentbdidong\android\android\app\src\main\AndroidManifest.xml:12:9-41
 	android:supportsRtl
-		ADDED from E:\quyen\HK8\ptudtrentbdidong\android\android\app\src\main\AndroidManifest.xml:10:9-35
+		ADDED from E:\quyen\HK8\ptudtrentbdidong\android\android\app\src\main\AndroidManifest.xml:13:9-35
 	android:allowBackup
-		ADDED from E:\quyen\HK8\ptudtrentbdidong\android\android\app\src\main\AndroidManifest.xml:7:9-35
+		ADDED from E:\quyen\HK8\ptudtrentbdidong\android\android\app\src\main\AndroidManifest.xml:10:9-35
 	android:icon
-		ADDED from E:\quyen\HK8\ptudtrentbdidong\android\android\app\src\main\AndroidManifest.xml:8:9-43
+		ADDED from E:\quyen\HK8\ptudtrentbdidong\android\android\app\src\main\AndroidManifest.xml:11:9-43
 	android:theme
-		ADDED from E:\quyen\HK8\ptudtrentbdidong\android\android\app\src\main\AndroidManifest.xml:11:9-40
+		ADDED from E:\quyen\HK8\ptudtrentbdidong\android\android\app\src\main\AndroidManifest.xml:14:9-40
 activity#com.example.quyenhua.bttygiadongtien.MainActivity
-ADDED from E:\quyen\HK8\ptudtrentbdidong\android\android\app\src\main\AndroidManifest.xml:12:9-18:20
+ADDED from E:\quyen\HK8\ptudtrentbdidong\android\android\app\src\main\AndroidManifest.xml:15:9-21:20
 	android:name
-		ADDED from E:\quyen\HK8\ptudtrentbdidong\android\android\app\src\main\AndroidManifest.xml:12:19-47
+		ADDED from E:\quyen\HK8\ptudtrentbdidong\android\android\app\src\main\AndroidManifest.xml:15:19-47
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from E:\quyen\HK8\ptudtrentbdidong\android\android\app\src\main\AndroidManifest.xml:13:13-17:29
+ADDED from E:\quyen\HK8\ptudtrentbdidong\android\android\app\src\main\AndroidManifest.xml:16:13-20:29
 action#android.intent.action.MAIN
-ADDED from E:\quyen\HK8\ptudtrentbdidong\android\android\app\src\main\AndroidManifest.xml:14:17-69
+ADDED from E:\quyen\HK8\ptudtrentbdidong\android\android\app\src\main\AndroidManifest.xml:17:17-69
 	android:name
-		ADDED from E:\quyen\HK8\ptudtrentbdidong\android\android\app\src\main\AndroidManifest.xml:14:25-66
+		ADDED from E:\quyen\HK8\ptudtrentbdidong\android\android\app\src\main\AndroidManifest.xml:17:25-66
 category#android.intent.category.LAUNCHER
-ADDED from E:\quyen\HK8\ptudtrentbdidong\android\android\app\src\main\AndroidManifest.xml:16:17-77
+ADDED from E:\quyen\HK8\ptudtrentbdidong\android\android\app\src\main\AndroidManifest.xml:19:17-77
 	android:name
-		ADDED from E:\quyen\HK8\ptudtrentbdidong\android\android\app\src\main\AndroidManifest.xml:16:27-74
+		ADDED from E:\quyen\HK8\ptudtrentbdidong\android\android\app\src\main\AndroidManifest.xml:19:27-74
 activity#com.example.quyenhua.bttygiadongtien.XemTyGia
-ADDED from E:\quyen\HK8\ptudtrentbdidong\android\android\app\src\main\AndroidManifest.xml:19:9-46
+ADDED from E:\quyen\HK8\ptudtrentbdidong\android\android\app\src\main\AndroidManifest.xml:22:9-46
 	android:name
-		ADDED from E:\quyen\HK8\ptudtrentbdidong\android\android\app\src\main\AndroidManifest.xml:19:19-43
+		ADDED from E:\quyen\HK8\ptudtrentbdidong\android\android\app\src\main\AndroidManifest.xml:22:19-43
 activity#com.example.quyenhua.bttygiadongtien.TinhTyGia
-ADDED from E:\quyen\HK8\ptudtrentbdidong\android\android\app\src\main\AndroidManifest.xml:20:9-56
+ADDED from E:\quyen\HK8\ptudtrentbdidong\android\android\app\src\main\AndroidManifest.xml:23:9-56
 	android:name
-		ADDED from E:\quyen\HK8\ptudtrentbdidong\android\android\app\src\main\AndroidManifest.xml:20:19-44
+		ADDED from E:\quyen\HK8\ptudtrentbdidong\android\android\app\src\main\AndroidManifest.xml:23:19-44
 uses-sdk
 INJECTED from E:\quyen\HK8\ptudtrentbdidong\android\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [com.android.support:appcompat-v7:24.0.0] C:\Users\Quyen Hua\.android\build-cache\fcab8268500876d9219f27d7206e33f721f6f22b\output\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:animated-vector-drawable:24.0.0] C:\Users\Quyen Hua\.android\build-cache\c697e456b5431879fb17ff5e1eb81018c3b374fc\output\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:24.0.0] C:\Users\Quyen Hua\.android\build-cache\fcacb87edfc7f60be72fb3f2b3ec9402e7f76d40\output\AndroidManifest.xml:21:5-43
-MERGED from [com.android.support:support-v4:24.0.0] C:\Users\Quyen Hua\.android\build-cache\76b1cb4a85ae2ee304cce000d691b53a7377adce\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:appcompat-v7:24.0.0] C:\Users\Quyen Hua\.android\build-cache\d5f8947f2146a1a5d833365a0fd1c2cc7aa9fbd3\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:24.0.0] C:\Users\Quyen Hua\.android\build-cache\bac9e81dd666d6bba82f9d18e5a5c7788ee961c7\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:24.0.0] C:\Users\Quyen Hua\.android\build-cache\ae13c9376c2e62e0d159dd536471ca1b1dd5cfed\output\AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-v4:24.0.0] C:\Users\Quyen Hua\.android\build-cache\0e9c765bd6bd857c69807c36ab2726a2b61168d2\output\AndroidManifest.xml:21:5-23:54
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Quyen Hua\.android\build-cache\09510b0b4c5ec13cc9ce3085d9870ff9456b333d\output\AndroidManifest.xml:5:5-7:41
 	tools:overrideLibrary
-		ADDED from [com.android.support:appcompat-v7:24.0.0] C:\Users\Quyen Hua\.android\build-cache\fcab8268500876d9219f27d7206e33f721f6f22b\output\AndroidManifest.xml:23:9-75
+		ADDED from [com.android.support:appcompat-v7:24.0.0] C:\Users\Quyen Hua\.android\build-cache\d5f8947f2146a1a5d833365a0fd1c2cc7aa9fbd3\output\AndroidManifest.xml:23:9-75
 	android:targetSdkVersion
 		INJECTED from E:\quyen\HK8\ptudtrentbdidong\android\android\app\src\main\AndroidManifest.xml
 		INJECTED from E:\quyen\HK8\ptudtrentbdidong\android\android\app\src\main\AndroidManifest.xml

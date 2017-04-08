@@ -16,7 +16,7 @@ import java.util.ArrayList;
 
 public class TinhTyGia extends AppCompatActivity {
 
-    TextView tvdateTime, tvKetqua, tvHienthi;
+    TextView tvdateTime, tvKetqua;
     Spinner spinnerLoaitiente1, spinnerLoaitiente2;
     EditText edInput;
     Button btnHienthi, btnReturn;
@@ -33,12 +33,11 @@ public class TinhTyGia extends AppCompatActivity {
 
         tvdateTime = (TextView)findViewById(R.id.tvDateTime);
         tvKetqua = (TextView)findViewById(R.id.tvKetqua);
-        tvHienthi = (TextView)findViewById(R.id.tvPhuongthuc);
         spinnerLoaitiente1 = (Spinner)findViewById(R.id.spinnerLoaitiente1);
         spinnerLoaitiente2 = (Spinner)findViewById(R.id.spinnerLoaitiente2);
         edInput = (EditText)findViewById(R.id.edInput);
-        btnHienthi =(Button)findViewById(R.id.btnHienthi);
         btnReturn =(Button)findViewById(R.id.btnReturn);
+        btnHienthi = (Button)findViewById(R.id.btnHienthi);
 
         Bundle db = getIntent().getExtras();
         if(db != null){
@@ -54,8 +53,8 @@ public class TinhTyGia extends AppCompatActivity {
 
         tvdateTime.setText("Ngày cập nhật: " + dateTime);
 
-        ArrayAdapter<String> arrayAdapter = new ArrayAdapter<>(this, R.layout.support_simple_spinner_dropdown_item, listName);
-        arrayAdapter.setDropDownViewResource(R.layout.support_simple_spinner_dropdown_item);
+        ArrayAdapter<String> arrayAdapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, listName);
+        arrayAdapter.setDropDownViewResource(android.R.layout.simple_list_item_single_choice);
         spinnerLoaitiente1.setAdapter(arrayAdapter);
         spinnerLoaitiente2.setAdapter(arrayAdapter);
 
@@ -83,15 +82,13 @@ public class TinhTyGia extends AppCompatActivity {
             }
         });
 
-        tvHienthi.setText("Chuyển từ " + listName.get(position1) + " sang " + listName.get(position2));
-
         btnHienthi.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 String input = edInput.getText().toString();
                 int dob_input = Integer.parseInt(input);
-                Double tong = (dob_input*(Double.parseDouble(listSotien.get(position1))))/(Double.parseDouble(listSotien.get(position2)));
-                tvKetqua.setText("Kết quả: " + String.valueOf((Math.round(tong*100))/100) + " " + listId.get(position2));
+                Double tong = (dob_input * (Double.parseDouble(listSotien.get(position1)))) / (Double.parseDouble(listSotien.get(position2)));
+                tvKetqua.setText("Kết quả: " + String.valueOf((Math.round(tong * 100)) / 100) + " " + listId.get(position2));
             }
         });
 

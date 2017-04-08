@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "E:\\quyen\\HK8\\ptudtrentbdidong\\android\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout-xlarge-v4\\activity_main.xml",
+        "source": "E:\\quyen\\HK8\\ptudtrentbdidong\\android\\android\\app\\src\\main\\res\\layout-xlarge\\activity_main.xml"
+    },
+    {
+        "merged": "E:\\quyen\\HK8\\ptudtrentbdidong\\android\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout-xlarge-v4\\activity_xem_ty_gia.xml",
+        "source": "E:\\quyen\\HK8\\ptudtrentbdidong\\android\\android\\app\\src\\main\\res\\layout-xlarge\\activity_xem_ty_gia.xml"
+    },
+    {
+        "merged": "E:\\quyen\\HK8\\ptudtrentbdidong\\android\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout-xlarge-v4\\activity_tinh_ty_gia.xml",
+        "source": "E:\\quyen\\HK8\\ptudtrentbdidong\\android\\android\\app\\src\\main\\res\\layout-xlarge\\activity_tinh_ty_gia.xml"
+    }
+]

@@ -2,15 +2,14 @@ package com.example.quyenhua.bttygiadongtien;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.constraint.ConstraintLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
-import android.widget.RelativeLayout;
 import android.widget.Spinner;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.example.quyenhua.bttygiadongtien.database.GiaTienTe;
 
@@ -18,7 +17,7 @@ import java.util.ArrayList;
 
 public class XemTyGia extends AppCompatActivity {
 
-    RelativeLayout layoutHienthi;
+    ConstraintLayout layoutHienthi;
     TextView tvId, tvDatetime, tvName, tvBuyOnl;
     Spinner spinnerXem;
     ArrayList<String> listId, listName, listBuyOnl;
@@ -32,7 +31,7 @@ public class XemTyGia extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_xem_ty_gia);
 
-        layoutHienthi = (RelativeLayout)findViewById(R.id.layoutHienthi);
+        layoutHienthi = (ConstraintLayout) findViewById(R.id.layoutHienthi);
         tvDatetime = (TextView) findViewById(R.id.tvDatetime);
         tvId = (TextView)findViewById(R.id.tvId);
         tvName = (TextView) findViewById(R.id.tvHienthi);
@@ -50,12 +49,12 @@ public class XemTyGia extends AppCompatActivity {
 
         listId.add(listId.size(), "VND");
         listName.add(listName.size(), "VIETNAM DONG");
-        listBuyOnl.add(listBuyOnl.size(), "1000");
+        listBuyOnl.add(listBuyOnl.size(), "1");
 
         tvDatetime.setText("Ngày cập nhật: " + dateTime);
 
-        ArrayAdapter<String> arrayAdapter = new ArrayAdapter<>(this, R.layout.support_simple_spinner_dropdown_item, listName);
-        arrayAdapter.setDropDownViewResource(R.layout.support_simple_spinner_dropdown_item);
+        ArrayAdapter<String> arrayAdapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, listName);
+        arrayAdapter.setDropDownViewResource(android.R.layout.simple_list_item_single_choice);
         spinnerXem.setAdapter(arrayAdapter);
 
         spinnerXem.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
@@ -66,7 +65,7 @@ public class XemTyGia extends AppCompatActivity {
                 //tvId.setText("Mã tiền tệ: " + giaTienTeArrayList.get(i).getId());
                 tvId.setText("Mã tiền tệ: " + listId.get(i));
                 tvBuyOnl.setText("Giá trị: " + listBuyOnl.get(i) + "VND");
-                Toast.makeText(XemTyGia.this, listName.get(i),Toast.LENGTH_LONG).show();
+                //Toast.makeText(XemTyGia.this, listName.get(i),Toast.LENGTH_LONG).show();
             }
 
             @Override
